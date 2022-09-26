@@ -1,0 +1,45 @@
+@import '../../common/colors.scss';
+
+.row2 {
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    text-align: center;
+  }
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.box input {
+    outline: 0;
+    border: 0;
+    height: 35px;
+    width: 350px;
+    padding: 0, 0.5rem;
+    font-size: 15px;
+    font-weight: bold;
+}
+.box input:active {
+    border: hidden;
+    outline: none;
+    overflow: hidden;
+    background-color: $font-secondary;
+    color: $secondary-color;
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    cursor: text;
+}
+.search input:hover {
+    border: hidden;
+    outline: none;
+    overflow: hidden;
+    background-color: $font-secondary;
+    color: $primary-color;
+    box-shadow: inset 5px 5px 10px -3px rgba(119, 115, 110, 0.7);
+}
+.search button {
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0, 0.4rem;
+}
